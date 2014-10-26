@@ -34,7 +34,7 @@ list(set=set, get=get,
 cacheSolve <- function(x, ...) {
        m <- x$getmatrix()
     if (!is.null(m)) {
-      message("Getting cached data")
+      message("Getting cached data ..")
       return(m)
     }
     matrix <- x$get()
